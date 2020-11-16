@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitung IP-REG</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style_form.css"/>
+    <script src="ip_reg.js" async></script>
+</head>
+<body>
+
+
+<!--membuat form, lalu beri nama-->
+<form name ="fform">
+
+<!--Gunakan berbagai cara, yg penting rapi-enak diliat. Form dibawah menggunakan element table
+dgn lebar 100%, artinya ditampilkan selebar layar yg digunakan.-->
+  <table border="1" width="70%" align="center">
+  
+<!--tr dibawah menggunakan colspan=4, alias merger empat kolom-->
+    <tr>
+      <td colspan="4">
+        <a class="tombol_kembali" href="index.html">Kembali</a>
+        <h2 align="center">Menghitung Indeks Prestasi Mahasiswa (Reguler)</h2>
+        <p align="center">Total kehadiran = 14 Pertemuan</p>
+      </td>
+    </tr>
+
+<!--membuat empat input untuk nilai absen, tugas, uts dan uas-->
+    <tr>
+      <td width="25%">Absensi (10%) :<input type="text" size="10" name="iabsen"> </td>
+      <td width="25%">Tugas (20%):<input type="text" size="10" name="itugas"> </td>
+      <td width="25%">UTS(35%):<input type="text" size="10" name="iuts"> </td>
+      <td width="25%">UAS (35%) :<input type="text" size="10" name="iuas"> </td>
+    </tr>
+
+<!--membuat dua tombol dlm satu element td, tombol hitung dan reset dgn posisi rata tengah. td disini harus diberi colspan=4. Lalu, beri fungsi onclick pd tombol hitung untuk memanggil fungsi JS-->
+    <tr>
+      <td width="100%" colspan="4" align="center">
+        <INPUT TYPE="button" value="Hitung" onclick="hitungip()">
+        <INPUT TYPE="reset" value="Reset">
+      </td>
+    </tr>
+
+<!--Bagian trakhir, membuat wadah untuk hasil pengolahan IP beserta keterangannya. Kedua input disini wajib diberi nama, agar dapat digunakan oleh JS. Element td diberi colspan=4 dan rata tengah-->
+    <tr>
+      <td width="100%" colspan="4" align="center">
+        Indeks Prestasi : <input size="6" name="oip">
+        Keterangan :<input type="text" size="25" name="oket">
+      </td>
+    </tr>
+
+ </table>
+
+</form>
+
+
+</body>
+</html>

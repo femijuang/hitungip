@@ -1,0 +1,74 @@
+a {
+  margin-top   : ;  
+  text-align   : center; 
+  font-size    : 16px;
+  font-family  : sans-serif;
+  color        : ;
+  padding      : 10px 20px;
+  border       : 2px solid orange;
+  cursor       : pointer;
+  border-radius: 10px;
+  background   : linear-gradient(to top, green, lime);
+  box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+  user-select  : none;
+  text-decoration: none;
+  display      : ;
+}
+
+a:hover {
+  background   : linear-gradient(to bottom, lime, yellow);
+}
+
+a:active {
+  background   : linear-gradient(to right, orange, yellow);
+}
+
+input[type="button"] {
+  margin-top   : ;  
+  text-align   : center; 
+  font-size    : 16px;
+  font-family  : sans-serif;
+  color        : ;
+  padding      : 10px 20px;
+  border       : 2px solid orange;
+  cursor       : pointer;
+  border-radius: 10px;
+  background   : linear-gradient(to top, green, lime);
+  box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+  user-select  : none;
+  text-decoration: none;
+  display      : ;
+}
+
+input[type="reset"] {
+  margin-top   : ;  
+  text-align   : center; 
+  font-size    : 16px;
+  font-family  : sans-serif;
+  color        : ;
+  padding      : 10px 20px;
+  border       : 2px solid orange;
+  cursor       : pointer;
+  border-radius: 10px;
+  background   : linear-gradient(to top, orange, yellow);
+  box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+  user-select  : none;
+  text-decoration: none;
+  display      : ;
+}
+
+input[type="button"]:hover {
+  background   : linear-gradient(to bottom, lime, yellow);
+}
+
+input[type="button"]:active {
+  background   : linear-gradient(to right, orange, yellow);
+}
+
+input[type="reset"]:hover {
+  background   : linear-gradient(to bottom, orange, red);
+}
+
+input[type="reset"]:active {
+  background   : linear-gradient(to right, red, yellow);
+}
